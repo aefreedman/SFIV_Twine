@@ -1,0 +1,2864 @@
+(dp0
+S'buildDestination'
+p1
+VC:\u005cUsers\u005cAaron\u005cPROJECTS\u005cTwine\u005cStreetFighter.html
+p2
+sS'saveDestination'
+p3
+S'C:\\Users\\Aaron\\PROJECTS\\Twine\\StreetFighter.tws'
+p4
+sS'target'
+p5
+S'jonah'
+p6
+sS'storyPanel'
+p7
+(dp8
+S'widgets'
+p9
+(lp10
+(dp11
+S'selected'
+p12
+I00
+sS'pos'
+p13
+(lp14
+F10.0
+aF10.0
+asS'passage'
+p15
+(itiddlywiki
+Tiddler
+p16
+(dp17
+S'text'
+p18
+VSo, you want to learn how to play Street Fighter.\u000a\u000aI guess I can help you with that. I'll need to ask you some [[questions|Hold on a second]] first, though.
+p19
+sS'tags'
+p20
+(lp21
+sS'created'
+p22
+ctime
+struct_time
+p23
+((I2013
+I10
+I15
+I11
+I38
+I17
+I1
+I288
+I1
+tp24
+(dp25
+tp26
+Rp27
+sS'modified'
+p28
+g27
+sS'title'
+p29
+VStart
+p30
+sbsa(dp31
+g12
+I00
+sg13
+(lp32
+F290.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p33
+(dp34
+g18
+VAre you familiar with fighting games?\u000a\u000aPerhaps Mortal Kombat or Tekken. Maybe Street Fighter II? King of Fighters? Marvel vs. Capcom? Guilty Gear? Persona? Soul Calibur?\u000a\u000aWhat's your poison?\u000a\u000a[[Cut to the chase I just want to learn how to play Street Fighter IV.]]\u000a\u000a[[I've played all of these.|Experienced Player]]\u000a[[I know of these games.]]\u000a[[I've watched people play these games.]]\u000a[[I have no idea what you're talking about.|Fresh Start]]
+p35
+sg20
+(lp36
+sg22
+g23
+((I2013
+I10
+I15
+I12
+I49
+I8
+I1
+I288
+I1
+tp37
+(dp38
+tp39
+Rp40
+sg28
+g40
+sg29
+VThe First Question
+p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+F150.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+g18
+VImpatient, huh? I like your style. You might want to play a rushdown character. Maybe Yun, Cammy, or Ibuki. But that's for you to figure out.\u000a\u000aAlright. I'm going to assume that you understand the basics of fighting games, then. Since that's the case, I'll skip right to introducing you to the [[framework|Introduction to a conceptual framework]] that I'll use throughout this guide.
+p46
+sg20
+(lp47
+sg22
+g23
+((I2013
+I10
+I15
+I12
+I52
+I51
+I1
+I288
+I1
+tp48
+(dp49
+tp50
+Rp51
+sg28
+g51
+sg29
+VCut to the chase I just want to learn how to play Street Fighter IV.
+p52
+sbsa(dp53
+g12
+I00
+sg13
+(lp54
+F290.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g18
+V
+p57
+sg20
+(lp58
+sg22
+g23
+((I2013
+I10
+I15
+I12
+I52
+I55
+I1
+I288
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg28
+g62
+sg29
+VExperienced Player
+p63
+sbsa(dp64
+g12
+I00
+sg13
+(lp65
+F570.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p66
+(dp67
+g18
+S''
+p68
+sg20
+(lp69
+sg22
+g23
+((I2013
+I10
+I15
+I12
+I52
+I59
+I1
+I288
+I1
+tp70
+(dp71
+tp72
+Rp73
+sg28
+g73
+sg29
+VI know of these games.
+p74
+sbsa(dp75
+g12
+I00
+sg13
+(lp76
+F570.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p77
+(dp78
+g18
+g68
+sg20
+(lp79
+sg22
+g23
+((I2013
+I10
+I15
+I12
+I53
+I3
+I1
+I288
+I1
+tp80
+(dp81
+tp82
+Rp83
+sg28
+g83
+sg29
+VI've watched people play these games.
+p84
+sbsa(dp85
+g12
+I00
+sg13
+(lp86
+F850.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p87
+(dp88
+g18
+VWell, then you need to start with the [[basics|Fighting Game Basics]].
+p89
+sg20
+(lp90
+sg22
+g23
+((I2013
+I10
+I15
+I12
+I53
+I7
+I1
+I288
+I1
+tp91
+(dp92
+tp93
+Rp94
+sg28
+g94
+sg29
+VFresh Start
+p95
+sbsa(dp96
+g12
+I00
+sg13
+(lp97
+F1690.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p98
+(dp99
+g18
+VThe basics. The basics.\u000a\u000aWell, you know what the health bar is, right? It's the two big red bars at the top of the screen. The first player to lose all of their health loses the round.\u000a\u000a<Let's put an image here?>\u000a\u000aUsually, a match is best of three. So, win two rounds and you win the match.\u000a\u000aThen there's the timer.\u000a\u000aIn Street Fighter IV, the default round length is 99 seconds. If the timer reaches 00, the player with the most health wins.\u000a\u000aWhat would you like to learn about next?\u000a\u000aI want to learn about [[moves]].\u000a\u000aWhat do those [[icons]] mean when you win a round?
+p100
+sg20
+(lp101
+sg22
+g23
+((I2013
+I10
+I15
+I23
+I14
+I50
+I1
+I288
+I1
+tp102
+(dp103
+tp104
+Rp105
+sg28
+g105
+sg29
+Vbasics
+p106
+sbsa(dp107
+g12
+I00
+sg13
+(lp108
+F710.0
+aF990.0
+asg15
+(itiddlywiki
+Tiddler
+p109
+(dp110
+g18
+VWelcome to the hub. Where would you like to start?\u000a\u000a<<display 'Hub'>>
+p111
+sg20
+(lp112
+sg22
+g23
+((I2013
+I10
+I15
+I23
+I34
+I53
+I1
+I288
+I1
+tp113
+(dp114
+tp115
+Rp116
+sg28
+g116
+sg29
+VHub (First)
+p117
+sbsa(dp118
+g12
+I00
+sg13
+(lp119
+I1130
+aI430
+asg15
+(itiddlywiki
+Tiddler
+p120
+(dp121
+g18
+VYou may have noticed that the round win icons come in a few varieties.\u000a\u000aHere's what they mean:\u000a\u000a(V) is a Normal Victory. That means you knocked the other player out with something mundane, like a normal attack, or a throw.\u000a\u000a(C) is a Cheap Victory. This one means that you knocked the other player out with chip damage. An cheap way to win, indeed. It's still a win, though.\u000a\u000a(T) is a Time Out. You get this kind of win if you have more health than your opponent when the round time runs out.\u000a\u000a(S) is a Super Combo Finish. As you might expect, this means you knocked the other player out with your Super Combo.\u000a\u000a(U) is an Ultra Combo Finish. This is like the Super Combo Finish, only with your Ultra.\u000a\u000a(D) is a Double K.O. These are rare, but like it says, this happens when both players knock each other out. If both players were on match point, then the game results in a draw.
+p122
+sg20
+(lp123
+sg22
+g23
+((I2013
+I10
+I15
+I23
+I36
+I48
+I1
+I288
+I1
+tp124
+(dp125
+tp126
+Rp127
+sg28
+g127
+sg29
+VWin Icons
+p128
+sbsa(dp129
+g12
+I00
+sg13
+(lp130
+F290.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p131
+(dp132
+g18
+V\u000a''Basic''\u000a[[Input Basics]]\u000a[[Winning and Losing]]\u000a[[Kinds of attacks]]\u000a[[Damage]]\u000aStun/Dizzy\u000aHitbox\u000aJumping (Direction)\u000aNormal Moves\u000aJoystick Control\u000aReversal\u000aTechnical\u000aSpacing\u000a\u000a''Intermediate''\u000aSpecial Attacks\u000aCanceling\u000aCounter Hit\u000aHyper Armor\u000aWhite Damage\u000aJumping (Empty vs. Attacking)\u000a\u000a''Advanced''\u000aFocus Attack Dash Cancel (FADC)\u000aMeter Management\u000aFrames (Advantage, Stun, Meaty, Safe)\u000aProximity Blocking\u000a\u000a[[Hub|Hub (return)]]
+p133
+sg20
+(lp134
+Vmechanics
+p135
+asg22
+g23
+((I2013
+I10
+I15
+I23
+I46
+I27
+I1
+I288
+I1
+tp136
+(dp137
+tp138
+Rp139
+sg28
+g139
+sg29
+VMechanics
+p140
+sbsa(dp141
+g12
+I00
+sg13
+(lp142
+F290.0
+aF990.0
+asg15
+(itiddlywiki
+Tiddler
+p143
+(dp144
+g18
+V''Basic''\u000aJump-ins\u000aPunish\u000aPoking\u000aFootsies\u000aTrade\u000a\u000a''Intermediate''\u000aCombos, Bread n' butter\u000aSet-ups\u000aCrossup\u000aMixup\u000aVortex\u000a\u000a\u000a''Advanced''\u000aHit-Confirm\u000aReactions\u000a\u000a[[Hub|Hub (return)]]
+p145
+sg20
+(lp146
+Vtactics
+p147
+asg22
+g23
+((I2013
+I10
+I15
+I23
+I46
+I40
+I1
+I288
+I1
+tp148
+(dp149
+tp150
+Rp151
+sg28
+g151
+sg29
+VTactics
+p152
+sbsa(dp153
+g12
+I00
+sg13
+(lp154
+F290.0
+aF1130.0
+asg15
+(itiddlywiki
+Tiddler
+p155
+(dp156
+g18
+V''Basic''\u000aPsychology\u000aRespect\u000aMind games\u000aReading\u000aZoning\u000a\u000a''Intermediate''\u000aRushdown\u000a\u000a''Advanced''\u000aCounter Picking\u000a\u000a[[Hub|Hub (return)]]
+p157
+sg20
+(lp158
+Vstrategy
+p159
+asg22
+g23
+((I2013
+I10
+I15
+I23
+I46
+I49
+I1
+I288
+I1
+tp160
+(dp161
+tp162
+Rp163
+sg28
+g163
+sg29
+VStrategy
+p164
+sbsa(dp165
+g12
+I00
+sg13
+(lp166
+F710.0
+aF850.0
+asg15
+(itiddlywiki
+Tiddler
+p167
+(dp168
+g18
+VWelcome back to the hub. Where would you like to explore next?\u000a\u000a<<display 'Hub'>>
+p169
+sg20
+(lp170
+sg22
+g23
+((I2013
+I10
+I15
+I23
+I56
+I32
+I1
+I288
+I1
+tp171
+(dp172
+tp173
+Rp174
+sg28
+g174
+sg29
+VHub (return)
+p175
+sbsa(dp176
+g12
+I00
+sg13
+(lp177
+F990.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p178
+(dp179
+g18
+VOkay so you really don't know anything about fighting games, huh? I admire your desire to learn!\u000a\u000aIn that case, I'm going to try explaining the very basics of a fighting game in very general terms, just to be sure we're on the same footing when we move to some more advanced topics.\u000a\u000aPick one of these, to start:\u000a\u000a<<set $superBasicChoices = 0>>\u000a<<display 'Super Basics'>>
+p180
+sg20
+(lp181
+Vbasics
+p182
+asg22
+g23
+((I2013
+I10
+I16
+I0
+I2
+I43
+I2
+I289
+I1
+tp183
+(dp184
+tp185
+Rp186
+sg28
+g186
+sg29
+VFighting Game Basics
+p187
+sbsa(dp188
+g12
+I00
+sg13
+(lp189
+F1410.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p190
+(dp191
+g18
+VI'm going to assume that you know what health means in a game. In //most// fighting games, your character's health is displayed at the top of the screen, on the side you started on. (Player 1 is typically on the left, Player 2 on the right.)\u000a\u000aWhen you lose all of your health, you're knocked out. K.O.!\u000a\u000aSimple enough, right?\u000a\u000aLet's move on.\u000a\u000a<<display 'Super Basics'>>\u000a\u000a<<set $superBasicChoices = $superBasicChoices + 1>>\u000a<<print $superBasicChoices>>
+p192
+sg20
+(lp193
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I6
+I10
+I2
+I289
+I1
+tp194
+(dp195
+tp196
+Rp197
+sg28
+g197
+sg29
+VHealth Bars
+p198
+sbsa(dp199
+g12
+I00
+sg13
+(lp200
+F1410.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p201
+(dp202
+g18
+V<<if $superBasicChoices eq 4>>\u000aBasics completed!\u000a<<display 'Hub'>>\u000a<<else>>\u000aChoose one:\u000a<<actions "Health Bars" "Round Timer" "Attacking" "Blocking">>\u000a<<endif>>
+p203
+sg20
+(lp204
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I9
+I23
+I2
+I289
+I1
+tp205
+(dp206
+tp207
+Rp208
+sg28
+g208
+sg29
+VSuper Basics
+p209
+sbsa(dp210
+g12
+I00
+sg13
+(lp211
+F850.0
+aF990.0
+asg15
+(itiddlywiki
+Tiddler
+p212
+(dp213
+g18
+V[[Mechanics]]\u000a[[Tactics]]\u000a[[Strategy]]
+p214
+sg20
+(lp215
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I12
+I47
+I2
+I289
+I1
+tp216
+(dp217
+tp218
+Rp219
+sg28
+g219
+sg29
+VHub
+p220
+sbsa(dp221
+g12
+I00
+sg13
+(lp222
+F1410.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p223
+(dp224
+g18
+VThe round timer is what keeps track of how much time is left in a round. Usually this timer is around 60-90 seconds.\u000a\u000aIf time runs out before a player is knocked out, then the player with the most health wins by Time Out.\u000a\u000a<<if $superBasicChoices eq 4>>\u000aBasics completed!\u000a<<display 'Hub'>>\u000a<<endif>>\u000a\u000a<<display 'Super Basics'>>\u000a\u000a<<set $superBasicChoices = $superBasicChoices + 1>>\u000a<<print $superBasicChoices>>
+p225
+sg20
+(lp226
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I14
+I10
+I2
+I289
+I1
+tp227
+(dp228
+tp229
+Rp230
+sg28
+g230
+sg29
+VRound Timer
+p231
+sbsa(dp232
+g12
+I00
+sg13
+(lp233
+F1550.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p234
+(dp235
+g18
+VAttacks are what you use to hit the other player. All you need to do is push buttons. Pretty simple, huh?\u000a\u000aIf only it was really that simple. But at the most basic level, it is really just that simple. If you push buttons better than your opponent pushes buttons, you win!\u000a\u000aThere's different kinds of attacks, like Special Attacks, or combos, and fancy stuff like Ultra or Hyper Combos in some games, too. Then there's grabs and overheads and ranged attacks...\u000a\u000aAnyways, I'm getting ahead of myself. Use attacks to hit the other player!\u000a\u000a<<display 'Super Basics'>>\u000a\u000a<<set $superBasicChoices = $superBasicChoices + 1>>\u000a<<print $superBasicChoices>>
+p236
+sg20
+(lp237
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I15
+I59
+I2
+I289
+I1
+tp238
+(dp239
+tp240
+Rp241
+sg28
+g241
+sg29
+VAttacking
+p242
+sbsa(dp243
+g12
+I00
+sg13
+(lp244
+F1550.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p245
+(dp246
+g18
+VNo one likes getting hit, right? Fighting games would be pretty boring if you couldn't stop the other player from hitting you, right? That's why you can ''block''.\u000a\u000aWhen you block, you stop an attack from doing the full amount of damage it would otherwise do. Pretty neat, right?\u000a\u000aKnowing how to block is probably more important than knowing how to attack. (Though knowing both is better.)\u000a\u000a<<display 'Super Basics'>>\u000a\u000a<<set $superBasicChoices = $superBasicChoices + 1>>\u000a<<print $superBasicChoices>>
+p247
+sg20
+(lp248
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I18
+I35
+I2
+I289
+I1
+tp249
+(dp250
+tp251
+Rp252
+sg28
+g252
+sg29
+VBlocking
+p253
+sbsa(dp254
+g12
+I00
+sg13
+(lp255
+F1830.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p256
+(dp257
+g18
+VThe Stweet Fighter
+p258
+sg20
+(lp259
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I43
+I48
+I2
+I289
+I1
+tp260
+(dp261
+tp262
+Rp263
+sg28
+g263
+sg29
+VStoryTitle
+p264
+sbsa(dp265
+g12
+I00
+sg13
+(lp266
+F1830.0
+aF150.0
+asg15
+(itiddlywiki
+Tiddler
+p267
+(dp268
+g18
+V[[Hub (return)]]\u000a\u000a[[Glossary]]\u000a\u000a[[Notes on Formatting]]
+p269
+sg20
+(lp270
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I45
+I17
+I2
+I289
+I1
+tp271
+(dp272
+tp273
+Rp274
+sg28
+g274
+sg29
+VStoryMenu
+p275
+sbsa(dp276
+g12
+I00
+sg13
+(lp277
+F1830.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p278
+(dp279
+g18
+VAE Freedman
+p280
+sg20
+(lp281
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I45
+I39
+I2
+I289
+I1
+tp282
+(dp283
+tp284
+Rp285
+sg28
+g285
+sg29
+VStoryAuthor
+p286
+sbsa(dp287
+g12
+I00
+sg13
+(lp288
+I990
+aI570
+asg15
+(itiddlywiki
+Tiddler
+p289
+(dp290
+g18
+V[[Aerials]]\u000a\u000aAnti-air\u000a
+p291
+sg20
+(lp292
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I47
+I14
+I2
+I289
+I1
+tp293
+(dp294
+tp295
+Rp296
+sg28
+g296
+sg29
+VKinds of attacks
+p297
+sbsa(dp298
+g12
+I00
+sg13
+(lp299
+I990
+aI710
+asg15
+(itiddlywiki
+Tiddler
+p300
+(dp301
+g18
+VAerial attacks are moves that you perform in the air.\u000a\u000aAll characters have two categories of aerial normal attacks: neutral and forward/backward aerial attacks. The FGC commonly abbreviates these as nj and fj/bj.\u000a\u000aFor example, nj.hk means "Neutral Jumping Heavy Kick" (or "Neutral Jumping Roundhouse," if you're oldschool).\u000a\u000aNeutral or angled jump attacks will have different hitboxes and animation frames, which make each one more or less desirable, depending on the situation.\u000a\u000aAdditonally, some characters have aerial special moves. Ryu, for example, can perform an aerial //Tatsumaki Senpukyaku// by inputting QCB + k while airborne.\u000a\u000aThere's also ''Air Throws'':\u000a<<display 'Air Throws'>>\u000a\u000a<<display 'Kinds of attacks'>>
+p302
+sg20
+(lp303
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I49
+I25
+I2
+I289
+I1
+tp304
+(dp305
+tp306
+Rp307
+sg28
+g307
+sg29
+VAerials
+p308
+sbsa(dp309
+g12
+I00
+sg13
+(lp310
+I990
+aI430
+asg15
+(itiddlywiki
+Tiddler
+p311
+(dp312
+g18
+VIt feels good to win, huh?\u000a\u000aThere's a couple different ways that you can win. You can learn about those [[here|Win Icons]].
+p313
+sg20
+(lp314
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I57
+I0
+I2
+I289
+I1
+tp315
+(dp316
+tp317
+Rp318
+sg28
+g318
+sg29
+VWinning and Losing
+p319
+sbsa(dp320
+g12
+I00
+sg13
+(lp321
+F1270.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p322
+(dp323
+g18
+VDamage is pretty straightforward, right? Fighting games are about knocking the other player out, so the more damage the better, right?\u000a\u000aAhh, if only it was that simple!\u000a\u000aGet your learning on, and find out how [[damage scaling|Damage Scaling]] affects you.
+p324
+sg20
+(lp325
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I58
+I14
+I2
+I289
+I1
+tp326
+(dp327
+tp328
+Rp329
+sg28
+g329
+sg29
+VDamage
+p330
+sbsa(dp331
+g12
+I00
+sg13
+(lp332
+F1550.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p333
+(dp334
+g18
+VEach move in a combo after the second decreases the base damage of the next hit by 10% (However the 3rd move scales immediately to 80%). Moves requiring additional input after connecting, e.g. Target Combos or Juri's Shikusen, count as multiple moves per additional input.\u000a\u000a<<display 'Hub'>>
+p335
+sg20
+(lp336
+sg22
+g23
+((I2013
+I10
+I16
+I0
+I59
+I53
+I2
+I289
+I1
+tp337
+(dp338
+tp339
+Rp340
+sg28
+g340
+sg29
+VDamage Scaling
+p341
+sbsa(dp342
+g12
+I00
+sg13
+(lp343
+F1410.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p344
+(dp345
+g18
+VAir throws are throw attacks performed in the air. Only certain characters have the ability to air throw. e.g. Cammy & Vega.\u000a\u000aAlso a kind of [[Command Throw]].
+p346
+sg20
+(lp347
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I3
+I47
+I2
+I289
+I1
+tp348
+(dp349
+tp350
+Rp351
+sg28
+g351
+sg29
+VAir Throws
+p352
+sbsa(dp353
+g12
+I00
+sg13
+(lp354
+F1690.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p355
+(dp356
+g18
+VA command throw is any throw special attack that is activated with a specific command other than the game's default throw command (short + jab in SF4).
+p357
+sg20
+(lp358
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I5
+I0
+I2
+I289
+I1
+tp359
+(dp360
+tp361
+Rp362
+sg28
+g362
+sg29
+VCommand Throw
+p363
+sbsa(dp364
+g12
+I00
+sg13
+(lp365
+F1410.0
+aF1270.0
+asg15
+(itiddlywiki
+Tiddler
+p366
+(dp367
+g18
+VAnti-air\u000a<<display 'Anti Air'>>\u000a\u000aAir-to-air\u000a<<display 'Air to Air'>>\u000a\u000aAir throw\u000a<<display 'Air Throws'>>\u000a\u000aArmor Break (property) (See Hyper Armor)\u000a<<display 'Armor Break'>>\u000a\u000aBlock stun\u000a<<display 'Block Stun'>>\u000a\u000aBread & Butter Combo\u000a<<display 'Bread & Butter Combo'>>\u000a\u000aBuffer\u000a<<display 'Input Buffer'>>\u000a\u000aCancel (technique)\u000a<<display 'Cancel'>>\u000a\u000aCancelable (property category)\u000a<<display 'Cancelable>>\u000a\u000aCharge\u000a<<display 'Charge'>>\u000a\u000aChip damage\u000a<<display 'Chip Damage'>>\u000a\u000aCommand Throw\u000a<<display 'Command Throw'>>\u000a\u000aCounter-pick\u000a<<display 'Counter-pick'>>\u000a\u000aCounter hit (stuffing)\u000a<<display 'Counter Hit'>>\u000a\u000aCrossup\u000a<<display 'Crossup'>>\u000a\u000aCrouch delay (Adv. Mechanics, Frames)\u000a<<display 'Crouch Delay'>>\u000a\u000aDamage Scaling\u000a<<display 'Damage Scaling'>>\u000a\u000aDash (backdash, forward dash)\u000a<<display 'Dash'>>\u000a\u000aDive kick\u000a<<display 'Dive Kick'>>\u000a\u000aDizzy (see: stun)\u000a<<display 'Dizzy'>>\u000a\u000aEX Move\u000a<<display 'EX Move'>>\u000a\u000aEmpty Jump\u000a<<display 'Empty Jump'>>\u000a\u000aFADC (Focus Attack Dash Cancel)\u000a<<display 'Focus Attack Dash Cancel'>>\u000a\u000aFootsies\u000a<<display 'Footsies'>>\u000a\u000aFrame Advantage\u000a<<display 'Frame Advantage'>>\u000a\u000aFrame Perfect\u000a<<display 'Frame Perfect'>>\u000a\u000aFrame trap\u000a<<display 'Frame Trap'>>\u000a\u000aGrappler\u000a<<display 'Grappler'>>\u000a\u000aGrounded\u000a<<display 'Grounded'>>\u000a\u000aHigh-jump/Super-jump\u000a<<display 'Super Jump'>>\u000a\u000aHit-confirm\u000a<<display 'Hit Confirm'>>\u000a\u000aHitbox\u000a<<display 'Hitbox'>>\u000a\u000aHit stun\u000a<<display 'Hit Stun'>>\u000a\u000aHyper Armor\u000a<<display 'Hyper Armor'>>\u000a\u000a\u000aInput window\u000aInvincibility\u000aJuggle\u000aKara cancel\u000aLink\u000aMatchup\u000aMeaty\u000aMixup\u000aNegative edge\u000aNeutral jump\u000aOkizeme(oki) (wakeup)\u000aOption select\u000aOverhead\u000aPiano\u000aPlinking (priority linking)\u000aPoking\u000aProrating\u000aProximity blocking\u000aPre-jump frames\u000aPursuit (property)\u000aQuick recover/Quick stand/Quick rise (technical)\u000aRead\u000aReset\u000aReversal\u000aReversal Armor Breaker\u000aRushdown\u000aShotokan\u000aSafe-jump\u000aSpecial/Super Cancel\u000aStun/Dizzy\u000aSuper combo\u000aTarget Combo\u000aTechnical (gamemechanic)\u000aTech (technique)\u000aTrade\u000aTrip-guard\u000aTurtle\u000aUnblockable\u000aUnique Attack\u000aUntechable (hard) knockdown\u000aUltra Combo\u000aVortex\u000aWakeup\u000aZoning\u000a
+p368
+sg20
+(lp369
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I7
+I30
+I2
+I289
+I1
+tp370
+(dp371
+tp372
+Rp373
+sg28
+g373
+sg29
+VGlossary
+p374
+sbsa(dp375
+g12
+I00
+sg13
+(lp376
+F1410.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p377
+(dp378
+g18
+VAn anti-air is an attack which allows you to prevent your opponent from attacking from above.
+p379
+sg20
+(lp380
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I8
+I28
+I2
+I289
+I1
+tp381
+(dp382
+tp383
+Rp384
+sg28
+g384
+sg29
+VAnti Air
+p385
+sbsa(dp386
+g12
+I00
+sg13
+(lp387
+F1410.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p388
+(dp389
+g18
+VAn air-to-air attack is an attack that allows you to hit your opponent while both of you are airborne
+p390
+sg20
+(lp391
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I9
+I29
+I2
+I289
+I1
+tp392
+(dp393
+tp394
+Rp395
+sg28
+g395
+sg29
+VAir to Air
+p396
+sbsa(dp397
+g12
+I00
+sg13
+(lp398
+F1270.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p399
+(dp400
+g18
+VThe armor break property allows an attack to counter an armored move (e.g. Focus Attacks). An armor break is indicated by a glass-shatter particle effect and sound effect. cf. Reversal Armor Break\u000a\u000aArmor Break is a property that counter's any //Armored// move and prevents the player using the armored move from absorbing an attack as //white damage//.\u000a\u000aSome Special Attacks are armored by default. Additionally, Special Attacks, Super Combos, and Ultra Combos acquire the Armor Break property if they are performed as //Reversals//.\u000a\u000a[[Focus Attacks]]\u000a[[Hyper Armor]]\u000a[[Reversal Armor Break]]
+p401
+sg20
+(lp402
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I14
+I11
+I2
+I289
+I1
+tp403
+(dp404
+tp405
+Rp406
+sg28
+g406
+sg29
+VArmor Break
+p407
+sbsa(dp408
+g12
+I00
+sg13
+(lp409
+F1270.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p410
+(dp411
+g18
+VEvery time you block a move, your character begins their block animation. During this time you are unable to perform any actions. cf. Reversal
+p412
+sg20
+(lp413
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I15
+I0
+I2
+I289
+I1
+tp414
+(dp415
+tp416
+Rp417
+sg28
+g417
+sg29
+VBlock Stun
+p418
+sbsa(dp419
+g12
+I00
+sg13
+(lp420
+F1550.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p421
+(dp422
+g18
+VA bread & butter combo is a reliable combination of moves that you can use against most opponents.
+p423
+sg20
+(lp424
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I16
+I3
+I2
+I289
+I1
+tp425
+(dp426
+tp427
+Rp428
+sg28
+g428
+sg29
+VBread & Butter Combo
+p429
+sbsa(dp430
+g12
+I00
+sg13
+(lp431
+F1270.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p432
+(dp433
+g18
+VBuffer refers to the ability to use the joystick movements or button presses of one move as part of the required inputs for the following move.
+p434
+sg20
+(lp435
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I17
+I34
+I2
+I289
+I1
+tp436
+(dp437
+tp438
+Rp439
+sg28
+g439
+sg29
+VInput Buffer
+p440
+sbsa(dp441
+g12
+I00
+sg13
+(lp442
+F1442.0
+aF553.0
+asg15
+(itiddlywiki
+Tiddler
+p443
+(dp444
+g18
+g57
+sg20
+(lp445
+sg22
+g23
+((I2013
+I10
+I16
+I1
+I21
+I54
+I2
+I289
+I1
+tp446
+(dp447
+tp448
+Rp449
+sg28
+g449
+sg29
+VInput Basics
+p450
+sbsa(dp451
+g12
+I00
+sg13
+(lp452
+F990.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p453
+(dp454
+S'text'
+p455
+V- To end a move prematurely by using another move.
+p456
+sS'tags'
+p457
+(lp458
+sS'created'
+p459
+g23
+((I2013
+I10
+I16
+I10
+I34
+I19
+I2
+I289
+I1
+tp460
+(dp461
+tp462
+Rp463
+sS'modified'
+p464
+g463
+sS'title'
+p465
+VCancel
+p466
+sbsa(dp467
+g12
+I00
+sg13
+(lp468
+F430.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p469
+(dp470
+g455
+V[[Game Mechanics & Techniques|Game Mechanics & Techniques (Definition)]]\u000a[[Tactics|Tactics (Definition)]]\u000aStrategy\u000aConcepts\u000aInput\u000a\u000a[[More Theory]]
+p471
+sg457
+(lp472
+sg459
+g23
+((I2013
+I10
+I16
+I11
+I10
+I49
+I2
+I289
+I1
+tp473
+(dp474
+tp475
+Rp476
+sg464
+g476
+sg465
+VConceptual Framework
+p477
+sbsa(dp478
+g12
+I00
+sg13
+(lp479
+F710.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p480
+(dp481
+g455
+VYou may have noticed that some words are highlighted and capitalized, such as Game\u005c Mechanic.\u000a\u000aThis formatting indicates that that I'm talking about the concept in the context of the framework that I've created for talking about Street Fighter IV.
+p482
+sg457
+(lp483
+sg459
+g23
+((I2013
+I10
+I16
+I11
+I12
+I13
+I2
+I289
+I1
+tp484
+(dp485
+tp486
+Rp487
+sg464
+g487
+sg465
+VNotes on Formatting
+p488
+sbsa(dp489
+g12
+I00
+sg13
+(lp490
+F150.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p491
+(dp492
+g455
+VTactics are situated at a more abstract level than Mechanics and Tactics.\u000a\u000aTo start with a concrete example, an //EX FADC// combo into an //Ultra Combo// is a ''Tactic'' in the sense that you need to employ the input mechanics of successfully performing a //Focus Attack//, a //Dash//, and an //Ultra Combo// while also succsessfully employing the Techniques of proper //Spacing// and //Canceling//. Understood as a composition of smaller bits of knowledge and gameplay, you get a ''Tactic''.\u000a\u000aAt this point it bears mentioning that I highlight Technique to avoid confusion with the common use of the word. It makes perfect sense to say that EX FADC into Ultra is a technique that you may use in order to make your opponent respect you as much as it makes sense to say that EX FADC into Ultra is also a tactic you may use with the same objective in mind. However, for the purposes of my framework, ''Techinques'' are implicit effects of Mechanics while Tactics are the combinatorial results of the two.
+p493
+sg457
+(lp494
+sg459
+g23
+((I2013
+I10
+I16
+I11
+I31
+I52
+I2
+I289
+I1
+tp495
+(dp496
+tp497
+Rp498
+sg464
+g498
+sg465
+VTactics (Definition)
+p499
+sbsa(dp500
+g12
+I00
+sg13
+(lp501
+F10.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p502
+(dp503
+g455
+VGame Mechanics & Techniques; differences, implications thereof.\u000a\u000aWhat's the difference between a Game\u005c Mechanic and a Technique?\u000a\u000aA Game\u005c Mechanic (which, for brevity, I will also reference as simply Mechanic) is an explicit system of SF4. This includes the most basic elements common to most fighting games, such as the health bars and damage. This also includes more specific elements such as //Counter Hits// and //Technicals//. Think of Game\u005c Mechanics as parts of the game that Street Fighter IV tries to tell you about or provides clear feedback on.\u000a\u000aTechniques, on the other hand, are derivations or implications of the game's Mechanics. For example, //Animation Frames// are a Mechanic, since you can see your character go through their animation frames and see whether you are in //Hit Stun// or //Block Stun//. //Frame Advantage//, however, is a Technique that derives from the interaction between two characters as they go through their //Animation Frames//. Consequently, because //Frame Advantage// (or //disadvantage//) is a technique, you can actively apply your knowledge of it during your play in order to gain an upper hand on your opponent!\u000a\u000aMechanics and Techniques combine to form [[Tactics|Tactics (Definition)]].
+p504
+sg457
+(lp505
+sg459
+g23
+((I2013
+I10
+I16
+I11
+I32
+I9
+I2
+I289
+I1
+tp506
+(dp507
+tp508
+Rp509
+sg464
+g509
+sg465
+VGame Mechanics & Techniques (Definition)
+p510
+sbsa(dp511
+g12
+I00
+sg13
+(lp512
+F430.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p513
+(dp514
+g455
+VIn order to help explain the dozens of bits of knowledge that you need to understand in order to learn how to play SF4, I've created a conceptual framework to help organize the information.\u000a\u000aIt's a simple hierarchy that moves from the concrete & practical to the conceptual & abstract. At the most basic level, there are Game\u005c Mechanics, or simply Mechanics. After Mechanics, there are Techniques. Then Tactics and Strategies. At the highest level are pure ''Concepts''.\u000a\u000a<-- practical ---------------------------------- abstract -->\u000aMechanics -- Techniques -- Tactics -- Strategies -- Concepts\u000a\u000aTo provide some quick examples, Mechanics are things like "moving" and "attacking"--the raw bones of the game. A ''Concept'' is something like //Respect// that arises from playing the game, but has a stronger connection and more implications outside of the game.\u000a\u000aIf you're interested, I argue that spectators (especially those most unfamiliar with Street Fighter) have the easiest time understanding the game at the more abstract levels. Players, meanwhile, need a more holistic understanding that incorporates the practical end of the spectrum. Furthermore, fighting games place particular importance on the technical parts of the game.\u000a\u000aEven though I've placed these terms on a linear hierarchy, I don't want to give the impression that there is a necessarily linear relationship between the parts. It's a bit more complicated than that, unfortunately. As I stated previously, playing Street Fighter requires a holistic understanding of the bits that compose the Mechanical/Conceptual spectrum. However, you can't very well understand everything before you begin playing the game. If you could do that, Street Fighter wouldn't be something we could get better at in the first place! Instead, as you learn to play the game, you'll constantly traverse the spectrum and learn parts of it piecewise. Many times, you'll find that you won't understand the implications of a Mechanic until you incorporate a particular Strategy into your game. For example, perhaps your strategy is to pressure your opponent in the corner (//Corner Pressure//), and the best way to do so is to retain //Frame Advantage//, a Technique, by using //EX Focus Attack Dash Canceling//. If we examine this specific case in isolation, //EX FADC// would be quite meaningless without the context of your higher-level strategic goal to provide it with practical use-value.\u000a\u000aAs a result, I've also chosen to label key terms as ''Basic'', ''Intermediate'', and ''Advanced''. These labels indicate the general amount of knowledge you'll need in order to apply the idea to your gameplay. Thus, //Attacking// is a ''Basic Mechanic'' since you can apply it immediately without needing to understand anything more than //Winning// and //Health//. My previous example of //Corner Pressure//, was an cursory explanation of an ''Advanced Strategy''.\u000a\u000aNext, I can provide you with a more detailed [[explanation|Game Mechanics & Techniques (Definition)]] of Mechanics and Techniques.\u000a\u000aI could also [[speak a bit more|More Theory]] about the relationship between each part of the spectrum.\u000a\u000aOr, you can also check my [[notes|Notes on Formatting]] about how I'm choosing to highlight terminolgy.
+p515
+sg457
+(lp516
+sg459
+g23
+((I2013
+I10
+I16
+I11
+I35
+I0
+I2
+I289
+I1
+tp517
+(dp518
+tp519
+Rp520
+sg464
+g520
+sg465
+VIntroduction to a conceptual framework
+p521
+sbsa(dp522
+g12
+I00
+sg13
+(lp523
+F570.0
+aF290.0
+asg15
+(itiddlywiki
+Tiddler
+p524
+(dp525
+g455
+VAll games require an in-depth understanding of Mechanics in order to play them at a high level. This may seem obvious, but it is worth stating, nevertheless. Because game mechanics are integral to the game as a system of rules, a player who is good at a particular game necessarily understands the game's mechanics.\u000a\u000aHowever, one way in which games are different from one another arises out of how each one emphasizes or deemphasizes Technique, Tactics, and Strategy.\u000a\u000aAs I mentioned earlier, fighting games tend to emphasize the technical end of the spectrum. This results from the combination of quick real-time gameplay and a complex input system. Compare fighting games with traditional board games like Chess and Go, for example. It is difficult to say that these games are highly techincal. Indeed, compared to fighting games, Chess and Go have simple, elegant rules, and playing the game doesn't require detailed knowledge about how to hold the pieces or how to place them on the board (etiquette aside). Moreover, it is absurd to argue that a particular technique for holding your pawn, or a method of placing your stones next to your opponent's makes you any more likely to win. Go and Chess instead rely heavily on strategy and tactics, and you may observe the consequences of this emphasis in the volumes of writings by professional players on these very topics.\u000a\u000aIf you spend any amount of time learning how to play a fighting game, however, you'll quickly realize how difficult it is to perform the moves you want, when you want to perform them. And I don't mean a situation such as one in which you could say, "Oh, I really wanted to use this particular combo, but my opponent defended too well and I wasn't able to do it safely," I mean one more like "Did you see how he just kara DP'd into his Ultra? I didn't even know you could do that! There's no way I could pull that off!" Again, one obvious reason for this is the split-second timing that Street Fighter requires, and in this respect the game is more sport-like, or, to avoid any complex implications derived from using "sport" as a description, atheletic, at the very least.\u000a\u000aExclamations like the former one about the cancel into Ultra occur frequently when watching, discussing, and playing fighting games. Much of the training that you will do as you practice could be considered simple busywork. You practice your QCBs and DPs so that these multi-step inputs become automatic. You work to trivialize the nontrivial so that you can focus on other parts of your game. You never escape the consequences of fighting games' nontrivial input system, however. Your strategy could be perfect, but dropping the right combo at the wrong time can cost you a game.\u000a\u000aI do not mean that tactical or strategic knowledge and play is unimportant to fighting games. It's just that fighting games are much less abstract than Chess and Go, or other heavily strategic games. This has benefits, as well. Priveleging technique allows for surprising situations and a greater degree of uncertainty while playing. Theoretically, a certain move might cancel into an Ultra, yet the timing window might only be one frame, and the setup might also be impractical to the extent that any serious professional would never try to pull it off in a grand final match with everything on the line.\u000a\u000aBut, maybe one time they do. And maybe that one time they pull it off.\u000a\u000aThat's hype.
+p526
+sg457
+(lp527
+sg459
+g23
+((I2013
+I10
+I16
+I12
+I6
+I18
+I2
+I289
+I1
+tp528
+(dp529
+tp530
+Rp531
+sg464
+g531
+sg465
+VMore Theory
+p532
+sbsa(dp533
+g12
+I00
+sg13
+(lp534
+F150.0
+aF10.0
+asg15
+(itiddlywiki
+Tiddler
+p535
+(dp536
+g455
+VJust to be clear, I'm going to present you with a rather involved theoretical framework that I hope will help you to improve your game. If you don't have the patience for a bit of reading and thinking, this is not the place for you.\u000a\u000aThough if reading and thinking are not your style, I'd recommend you consider learning to play something other than a fighting game.\u000a\u000a<<choice "The First Question" "Bring it on!">>
+p537
+sg457
+(lp538
+sg459
+g23
+((I2013
+I10
+I16
+I12
+I9
+I38
+I2
+I289
+I1
+tp539
+(dp540
+tp541
+Rp542
+sg464
+g542
+sg465
+VHold on a second
+p543
+sbsa(dp544
+g12
+I00
+sg13
+(lp545
+F710.0
+aF430.0
+asg15
+(itiddlywiki
+Tiddler
+p546
+(dp547
+S'text'
+p548
+VFrustrated. Am I getting any better? I have a hard time telling. I almost feel like I was doing better, or at least just as well when I didn't feel like I actually knew what I was doing.\u000a\u000aPlayed a dozen or so matches against a few people online today. I pretty much got bodies the whole time. Won maybe two or three rounds the whole night. I don't know if it was just because I was tired or I was just playing people who were just flat-out really good, but I was really down afterward. I didn't feel like I was doing anything obviously //bad//, its just that nothing was working.\u000a\u000aAt this point I've spent at least a couple hundred hours playing the game. I know that's not a lot compared to the people who have played since forever (usually SFII), but still, that's not an insignificant amount of time. I guess I can beat people who really //don't// know what they're doing and I can't get flat-out trolled anymore, but I'm having a hard time getting a lot out of playing against most other people. There doesn't seem to be a lot of people around my level: people who are trying to take the game seriously, but have just started. Either people are just fooling around or they're veterans.\u000a\u000aI've spent a lot of time researching and reading everything I can find, and I don't know how much that's actually helping me. I feel that there's a limit to the amount of training I can do just on my own. Like with practicing bread n' butter combos. I know what they are, and I'm getting the timing down, but doing them in training and doing them in a match is completely different.
+p549
+sS'tags'
+p550
+(lp551
+sS'created'
+p552
+g23
+((I2013
+I10
+I17
+I22
+I3
+I9
+I3
+I290
+I1
+tp553
+(dp554
+tp555
+Rp556
+sS'modified'
+p557
+g556
+sS'title'
+p558
+VJournal (a)
+p559
+sbsa(dp560
+g12
+I00
+sg13
+(lp561
+F710.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p562
+(dp563
+g548
+V- All normal moves have one of the four following cancel properties that determine which kind of move may be used to cancel the move: Special Cancelable, Super / EX Focus Cancelable, Whiff Cancelable, Non-cancelable.\u000a
+p564
+sg550
+(lp565
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I14
+I23
+I3
+I290
+I1
+tp566
+(dp567
+tp568
+Rp569
+sg557
+g569
+sg558
+VCancelable
+p570
+sbsa(dp571
+g12
+I00
+sg13
+(lp572
+F990.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p573
+(dp574
+g548
+V- Charge refers to joystick inputs that must be held for a certain period of time.
+p575
+sg550
+(lp576
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I14
+I55
+I3
+I290
+I1
+tp577
+(dp578
+tp579
+Rp580
+sg557
+g580
+sg558
+VCharge
+p581
+sbsa(dp582
+g12
+I00
+sg13
+(lp583
+F1130.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p584
+(dp585
+g548
+V- Chip damage is any damage taken by a character while they are blocking. In SF4, all special moves do chip damage, while normal attacks do not.
+p586
+sg550
+(lp587
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I15
+I10
+I3
+I290
+I1
+tp588
+(dp589
+tp590
+Rp591
+sg557
+g591
+sg558
+VChip Damage
+p592
+sbsa(dp593
+g12
+I00
+sg13
+(lp594
+F1130.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p595
+(dp596
+g548
+V- Counter-pick refers to picking a character that performs exceptionally well against your opponent or your opponent's character, or both. Typically, a counter-pick is made by a player who has lost a round, and then chooses to change characters (counter-pick). See: Infiltration vs. PR Balrog Evo 2013
+p597
+sg550
+(lp598
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I16
+I22
+I3
+I290
+I1
+tp599
+(dp600
+tp601
+Rp602
+sg557
+g602
+sg558
+VCounter-pick
+p603
+sbsa(dp604
+g12
+I00
+sg13
+(lp605
+F990.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p606
+(dp607
+g548
+V- A counter hit is attacking your opponent while they are engaged in the start-up frames of an attack, hitting them before their attack becomes active and stopping them from continuing the attack. A counter hit receives a 25% damage boost (only the first hit) and an extended hit-stun (1fr. for light & 3fr. for medium and heavy). Extended hitstun does not apply to aerial counterhits.
+p608
+sg550
+(lp609
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I16
+I50
+I3
+I290
+I1
+tp610
+(dp611
+tp612
+Rp613
+sg557
+g613
+sg558
+VCounter Hit
+p614
+sbsa(dp615
+g12
+I00
+sg13
+(lp616
+F850.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p617
+(dp618
+g548
+V- A crossup is an attack that begins in front of your opponent but will hit behind them. As a result, they must block from the opposite side at the correct time in order to block the attack.
+p619
+sg550
+(lp620
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I17
+I16
+I3
+I290
+I1
+tp621
+(dp622
+tp623
+Rp624
+sg557
+g624
+sg558
+VCrossup
+p625
+sbsa(dp626
+g12
+I00
+sg13
+(lp627
+F1130.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p628
+(dp629
+g548
+V- During the first few frames after you press down on the joystick, your character enters a transitional state between crouching and standing. During this transition, your character is considered to be both crouching and standing.
+p630
+sg550
+(lp631
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I17
+I28
+I3
+I290
+I1
+tp632
+(dp633
+tp634
+Rp635
+sg557
+g635
+sg558
+VCrouch Delay
+p636
+sbsa(dp637
+g12
+I00
+sg13
+(lp638
+F850.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p639
+(dp640
+g548
+V- Double-tapping forward or backward causes a character to move quickly forward or back. Dashing moves the character quicker than they would otherwise be able to move, and also alters their hitbox. For example, Juri can forward dash under some fireballs. While forward dashing, characters are considered grounded. While backdashing, characters are considered airborne.
+p641
+sg550
+(lp642
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I17
+I53
+I3
+I290
+I1
+tp643
+(dp644
+tp645
+Rp646
+sg557
+g646
+sg558
+VDash
+p647
+sbsa(dp648
+g12
+I00
+sg13
+(lp649
+F1130.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p650
+(dp651
+g548
+V- A dive kick is a move that alters the jump trajectory of a character. Typically, characters with dive kicks can choose to start the dive kick at any point in their jump trajectory and have some control over the dive kick's trajectory. Dive kicks may be used to quickly traverse the screen, and may also be used to make your opponent guess when and where you will land or attack.
+p652
+sg550
+(lp653
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I18
+I8
+I3
+I290
+I1
+tp654
+(dp655
+tp656
+Rp657
+sg557
+g657
+sg558
+VDive Kick
+p658
+sbsa(dp659
+g12
+I00
+sg13
+(lp660
+F850.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p661
+(dp662
+g548
+V- Dizzy is when a character has reached the capacity of their stun meter and is temporarily disabled, or "knocked dizzy."\u000a
+p663
+sg550
+(lp664
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I18
+I30
+I3
+I290
+I1
+tp665
+(dp666
+tp667
+Rp668
+sg557
+g668
+sg558
+VDizzy
+p669
+sbsa(dp670
+g12
+I00
+sg13
+(lp671
+F850.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p672
+(dp673
+g548
+V- An EX move is powered-up version of a special move. EX moves use 1/4 of your Super Meter (except EX Focus Attacks, which use 1/2). EX moves typically gain extra properties, such as more damage and better frame advantage.
+p674
+sg550
+(lp675
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I18
+I58
+I3
+I290
+I1
+tp676
+(dp677
+tp678
+Rp679
+sg557
+g679
+sg558
+VEX Move
+p680
+sbsa(dp681
+g12
+I00
+sg13
+(lp682
+F710.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p683
+(dp684
+g548
+V- An empty jump is a jump in which you do not perform any action. You are allowed to cancel your Landing Frames if you perform an Empty Jump.
+p685
+sg550
+(lp686
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I20
+I0
+I3
+I290
+I1
+tp687
+(dp688
+tp689
+Rp690
+sg557
+g690
+sg558
+VEmpty Jump
+p691
+sbsa(dp692
+g12
+I00
+sg13
+(lp693
+F1550.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p694
+(dp695
+g548
+V- You may cancel a focus attack by dashing while charging a focus attack (normal or EX).
+p696
+sg550
+(lp697
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I21
+I23
+I3
+I290
+I1
+tp698
+(dp699
+tp700
+Rp701
+sg557
+g701
+sg558
+VFocus Attack Dash Cancel
+p702
+sbsa(dp703
+g12
+I00
+sg13
+(lp704
+F990.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p705
+(dp706
+g548
+V- Footsies is a tactical spacing technique in which a player attempts to stay just outside the range of his or her normal attacks and hopes to catch the other player as they move toward them (walking into the hitbox of the attack) or to catch them off guard as they move toward the other player.
+p707
+sg550
+(lp708
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I22
+I11
+I3
+I290
+I1
+tp709
+(dp710
+tp711
+Rp712
+sg557
+g712
+sg558
+VFootsies
+p713
+sbsa(dp714
+g12
+I00
+sg13
+(lp715
+F710.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p716
+(dp717
+g548
+VFrame advantage is the differential between two character's animations.\u000a\u000aFrame advantage is usually used in contexts such as, "FADC allows you to combo into your Ultra because it gives you a large frame advantage," meaning that because FADC halts the attack animation of whatever attack you had been performing and brings you back to your neutral animation quicker than you would have reached it otherwise, you gain an extra handful of frames in which to perform another attack.\u000a\u000aHence, frame advantage.
+p718
+sg550
+(lp719
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I22
+I23
+I3
+I290
+I1
+tp720
+(dp721
+tp722
+Rp723
+sg557
+g723
+sg558
+VFrame Advantage
+p724
+sbsa(dp725
+g12
+I00
+sg13
+(lp726
+F1550.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p727
+(dp728
+g548
+VFrame perfect refers to specific cases of timing an action such that you finish the input on the first frame in which you are able to perform it.\u000a\u000aIn SFIV, a common example of this is a //one frame link//.
+p729
+sg550
+(lp730
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I26
+I20
+I3
+I290
+I1
+tp731
+(dp732
+tp733
+Rp734
+sg557
+g734
+sg558
+VFrame Perfect
+p735
+sbsa(dp736
+g12
+I00
+sg13
+(lp737
+F710.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p738
+(dp739
+g548
+VA frame trap is a series of attacks during which it appears that the defending player is able to counter-attack between the attacking player's actions, even though that is not the case.\u000a\u000aIf the attacking player is using a frame trap counter-attacking will result in getting hit.
+p740
+sg550
+(lp741
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I29
+I43
+I3
+I290
+I1
+tp742
+(dp743
+tp744
+Rp745
+sg557
+g745
+sg558
+VFrame Trap
+p746
+sbsa(dp747
+g12
+I00
+sg13
+(lp748
+F570.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p749
+(dp750
+g548
+VGrapplers are a type of character found in most fighting games that have at least one, if not more, command grabs and focus on single, high-damage special attacks (that the character usually performs as some kind of grapple attack).\u000a\u000aExamples in SFIV include Hakan, Abel, and Zangief.
+p751
+sg550
+(lp752
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I32
+I19
+I3
+I290
+I1
+tp753
+(dp754
+tp755
+Rp756
+sg557
+g756
+sg558
+VGrappler
+p757
+sbsa(dp758
+g12
+I00
+sg13
+(lp759
+F570.0
+aF1550.0
+asg15
+(itiddlywiki
+Tiddler
+p760
+(dp761
+g548
+V- A character is grounded when on the ground. (This may seem obvious, but a character is considered grounded during their pre-jump frames -- even if it appears that they are airborne.)
+p762
+sg550
+(lp763
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I35
+I38
+I3
+I290
+I1
+tp764
+(dp765
+tp766
+Rp767
+sg557
+g767
+sg558
+VGrounded
+p768
+sbsa(dp769
+g12
+I00
+sg13
+(lp770
+F570.0
+aF1690.0
+asg15
+(itiddlywiki
+Tiddler
+p771
+(dp772
+g548
+VA High Jump or Super Jump is a jump that moves the character further than a normal jump. Performing such a jump requires some kind of special input. Additionally, this move has different animation frames and may alter the properties of attacks performed during the jump.\u000a\u000aIn SFIV, only Ibuki and C. Viper have Super Jumps.
+p773
+sg550
+(lp774
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I35
+I58
+I3
+I290
+I1
+tp775
+(dp776
+tp777
+Rp778
+sg557
+g778
+sg558
+VSuper Jump
+p779
+sbsa(dp780
+g12
+I00
+sg13
+(lp781
+F570.0
+aF1830.0
+asg15
+(itiddlywiki
+Tiddler
+p782
+(dp783
+g548
+VHit Confirming is a technique that players use to extend the number of frames they have to respond to a succesful attack and continue with a combo.\u000a\u000aHit confirming is usually performed by using one or more relatively //safe// attacks (most character's light attacks can be used this way) that are hard to punish if blocked but provide an ability to continue into a more damaging combo if the attack connects.\u000a\u000aHit confirming is linked strongly to //footsies//. //Safe jumps// can also be thought of as a method or style or hit confirmation. 
+p784
+sg550
+(lp785
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I39
+I37
+I3
+I290
+I1
+tp786
+(dp787
+tp788
+Rp789
+sg557
+g789
+sg558
+VHit Confirm
+p790
+sbsa(dp791
+g12
+I00
+sg13
+(lp792
+F1550.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p793
+(dp794
+g548
+g57
+sg550
+(lp795
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I44
+I34
+I3
+I290
+I1
+tp796
+(dp797
+tp798
+Rp799
+sg557
+g799
+sg558
+VChain
+p800
+sbsa(dp801
+g12
+I00
+sg13
+(lp802
+F1696.0
+aF1698.0
+asg15
+(itiddlywiki
+Tiddler
+p803
+(dp804
+g548
+VHitboxes are rectangular areas that the game engine uses to perform collision detection between the two characters.\u000a\u000aHitboxes are said to be "active" when a collision with that hitbox will result in taking damage. Correspondingly, the frames of an attack animation during which an attack can damage the other character are called //active frames//.\u000a\u000aIf two active hitboxes collide, both characters take damage. This is called a //trade//
+p805
+sg550
+(lp806
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I49
+I6
+I3
+I290
+I1
+tp807
+(dp808
+tp809
+Rp810
+sg557
+g810
+sg558
+VHitbox
+p811
+sbsa(dp812
+g12
+I00
+sg13
+(lp813
+F1690.0
+aF1410.0
+asg15
+(itiddlywiki
+Tiddler
+p814
+(dp815
+g548
+g57
+sg550
+(lp816
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I52
+I46
+I3
+I290
+I1
+tp817
+(dp818
+tp819
+Rp820
+sg557
+g820
+sg558
+VActive Frames
+p821
+sbsa(dp822
+g12
+I00
+sg13
+(lp823
+F1130.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p824
+(dp825
+g548
+VAlso //"trading"//.\u000a\u000aWhen two players hit each other with active hitboxes.
+p826
+sg550
+(lp827
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I53
+I43
+I3
+I290
+I1
+tp828
+(dp829
+tp830
+Rp831
+sg557
+g831
+sg558
+VTrade
+p832
+sbsa(dp833
+g12
+I00
+sg13
+(lp834
+F850.0
+aF1970.0
+asg15
+(itiddlywiki
+Tiddler
+p835
+(dp836
+g548
+VHit stun is the period of time during which your character moves through the recoil animation after being hit with an attack.\u000a\u000aIt is not possible to perform any actions during hit stun, thus enabling the other player to perform additional actions.\u000a\u000aThe differential between the lengh of a character's hit stun animation and the length of the //recovery animation on hit// is one way of creating //frame advantage//.
+p837
+sg550
+(lp838
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I54
+I50
+I3
+I290
+I1
+tp839
+(dp840
+tp841
+Rp842
+sg557
+g842
+sg558
+VHit Stun
+p843
+sbsa(dp844
+g12
+I00
+sg13
+(lp845
+F702.0
+aF1960.0
+asg15
+(itiddlywiki
+Tiddler
+p846
+(dp847
+g548
+VHyper Armor, or just Armor, is the attack property that provides characters with the ability to absorb a single hit without taking direct damage. Instead, the damage is converted to //white damage//\u000a\u000aFocus Attacks are Armored by default, as well as some Special Attacks.\u000a\u000a//Armor Break// counters the Armored property.
+p848
+sg550
+(lp849
+sg552
+g23
+((I2013
+I10
+I17
+I22
+I59
+I42
+I3
+I290
+I1
+tp850
+(dp851
+tp852
+Rp853
+sg557
+g853
+sg558
+VHyper Armor
+p854
+sbsa(dp855
+g12
+I01
+sg13
+(lp856
+F626.0
+aF563.0
+asg15
+(itiddlywiki
+Tiddler
+p857
+(dp858
+S'text'
+p859
+VI had my first experience with bodying someone else, instead of getting bodied myself. It was weird.\u000a\u000aI was extremely frustrated after playing a bunch of matches against someone in an endless room. I was trying to practice my spacing and footsies with Juri and after maybe a dozen matches the guy sends me a message saying "stop playing like a scrub."\u000a\u000aHonestly I'm not really sure what that means. I know what the word //means//. But I don't really get it. To the extent that I'm trying my best not to be a scrub, I'm trying to learn what works and what doesn't, and the frustrating part about that is I still haven't seen a vast majority of the things that are possible in the game. This guy was hitting me with this crazy Ibuki mixup I didn't even know was possible. He stunned me at least a half dozen times while I was trying to figure out how to respond to it.\u000a\u000aI'm generally fine with gloating and smack-talk in games, especially since I play so many competitive multiplayer games, but I've had mixed experiences with trying to find a place in the FGC. I've had a handful of great experiences where my opponents have recognized that I'm just starting out and trying to learn the game, and have offered help and advice. Most of the time this advice was freely given and offered without me having to ask for it. These people also tend to be either older vets that say something like "I never would have kept playing if someone hadn't offered to teach me," or friends that are willing to sit around for an hour and train.)\u000a\u000aI've also had many experiences where I've played multiple games against an opponent that is obviously much more experienced than I, who either plays a few games and kicks me off or sends me a dismissive message. If I'm online, this becomes horribly depressing, especially after spending an hour getting bodied. It's amazing how easy it is to tell how someone is thinking, even if you're only seeing their character and they never speak to you. As a new player, I've gotten used to getting destroyed by more experienced players and encountering new techniques that I have to learn how to deal with. Psychologically, I find it a lot easier to deal with if it seems like my opponent is trying to teach me something. You can feel this when you're playing. Like if the other player notices that a particular setup they use always catches you, and they keep doing it until you figure it out (or they send you a message saying something like "try using X when I do this" or "you're using Y too much"). You learn that people try not to repeat an action out of fear of becoming predictable, and surprisingly you also learn when someone is trying to troll you rather than teach you.\u000a\u000aUnfortunately I've also had this experience offline, as well. It's a bit more subtle, but it's discouraging to play a set of games against someone, lose every single one, and have the person just walk away after.\u000a\u000aPatrick Miller wrote an opinion about the FGC ethos of (non)inclusion and a school-of-hard-knocks mentality, and I both agree and disagree. As I've explained, I've had experiences both ways. The discussion is heated and a lot of the responses (at least on Shoryuken) tend to be variations of "You can't single out the FGC as a toxic community. This is an issue in gaming in general," or "Hey at least we're not the LoL community or CoD kids," (which I completely understand, but also am beginning to tire of and also beginning to disagree with) or "people being nice to each other doesn't guarantee that we'll have a good community." Logically, these arguments are all pieces of a kind of truth about the FGC. Yes, there are toxic communities all over and yes there have been successful games with toxic communities: most obvious example being League of Legends. At the same time I'm not sure that saying that the success of a game correlates to the success of its community. Part of the success of LoL is the result of team-based gameplay and the kind of micro-communities that this tends to create. In my experience, most people tend to play with friends (or at least //a// friend, hence duo-queue being part of the matchmaking process--along with arranged teams). A lot of the complaints about the LoL community results from playing "normals," or what in other games would be called pick-up games (games you play with strangers). Pick-up games have always been strenuous experiences. Doing //anything// with strangers is always an uncertain experience, and any idiosyncracies tend to multiply when anonymity is an option.\u000a\u000aIn fact, my experience with the FGC and with LoL and any other videogame I have played mirrors my experience with another game community I also consider myself to be part of: the Go community. I'm a bit adverse to playing the game online because of the same interaction problems that irk me in other games. Online play feel sterile. It feels horrible to play a lengthy game against someone, to struggle for sometimes two or three hours trying to win by a single point, and have the other player walk away afterwards without saying anything more than "gg". I'm exaggerating slightly, since most of the time if you're playing a match that takes more than an hour to conclude, both players tend to stick around after and review the game. But the Go community's culture of reviewing games is exactly the kind of culture that fosters a sense of community and helps to make new players feel included. It offers a sense of "Look, I may have beaten you by fifty points, but I'm going to spend twenty minutes teaching you something you can use in your next game." And this happens across all levels of play.\u000a\u000aOne potential reason this culture exists in the Go community is that Go is respected as an extremely //difficult// game to play, even by players that are good by most people's standards. There's a certain humility and respect that players observe toward the game itself. If I played a game against a dan-level player and they said something like "stop being a scrub; come back when you learn how to play" I would not only feel hurt, but I would also be offended and surprised that a player such as that can survive in the Go community. I wouldn't play against that person again, even if I think that I could learn something from playing them. I just wouldn't.\u000a\u000aOddly, I don't find myself applying that same kind of thinking to the FGC. I've gotten used to the kind of verbal abuse that other players sometimes levy against me. I'm not quite sure why. Perhaps it's an attempt to prove that I can be part of that community, too. A belief that it's some kind of hazing, almost.\u000a\u000aThis brings me back to Patrick Miller's article. Yes, there are communities, such as the FGC, which have a reputation for being toxic. Yes, these communities appear to be doing okay, or, at least they're able to produce players who can play at extremely high levels. But most importantly, claiming that inclusion in a larger community that exihibits or encourages poor behavior on the part of the individual doesn't absolve the individual of the responsiblity of behaving properly. We are not drones.\u000a\u000aI also want to at least mention the issue of gender equality, as well. Anyone reading this can likely extrapolate my opinions on this, and I'm not going to argue this issue here, especially because I'm ill-equipped to provide more than cursory observations and hearsay. Also the fact that I'm\u000a\u000aSo after that I jumped in a ranked match against someone with twice as many points as I had and proceeded to just wreck him. It was like my fingers were moving before I even realized what I was doing.\u000a\u000aAfter the match I watched the replay a couple times and I was still surprised at myself. It was beautiful.
+p860
+sS'tags'
+p861
+(lp862
+sS'created'
+p863
+g23
+((I2013
+I10
+I18
+I11
+I0
+I19
+I4
+I291
+I1
+tp864
+(dp865
+tp866
+Rp867
+sS'modified'
+p868
+g867
+sS'title'
+p869
+VJournal (b)
+p870
+sbsasS'scale'
+p871
+F1.0
+ss.
